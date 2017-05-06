@@ -1,0 +1,104 @@
+html, body {
+    box-sizing: border-box;
+}
+/****** DEBUG ONLY ******/
+.border * {
+    border: 1px solid violet;
+}
+.border1 {
+    border: 1px solid green;
+}
+.border2 {
+    border: 1px solid blue;
+}
+/****** DEBUG ONLY ******/
+
+body * {
+    font-size: small;
+}
+.shadow-background {
+    -webkit-box-shadow: 12px 24px 86px -12px rgba(0,5,92,0.53);
+    -moz-box-shadow: 12px 24px 86px -12px rgba(0,5,92,0.53);
+    box-shadow: 12px 24px 86px -12px rgba(0,5,92,0.53);
+}
+
+
+/****** Background color section ******/
+.form-body {
+    border-top: 15px solid #54ADCB;
+}
+.panel-top {
+    background-color: #fff; 
+    border-bottom: 1px solid #DDD;
+}
+.panel-body {
+    background-color: #fafafa;
+    border-bottom: 1px solid #DDD;
+}
+.panel-bottom {
+    background-color: #f2f2f2; 
+    border-bottom: 1px solid #DDD;
+}
+/****** End of background color section ******/
+
+/*********** Login page ***********/
+
+.panel-top h1 {
+    font-size: 24px;
+}
+.custom-input {
+    border: 1px solid #DDD;
+    background: none;
+    color: #828999;
+    transition: 0.3s;
+    overflow: hidden;
+    font-size: 14px;
+    position: relative;
+    border-radius: 0px;
+}
+.text-indent {
+    text-indent: 35px;
+}
+.fa-fix {
+    border: none !important;
+    background-color: transparent !important;
+    position: absolute;
+    z-index: 1;
+}
+input:hover, input:focus {
+    border-color: #54ADCB;
+}
+span .fa {
+    color: #bababa;
+}
+.custom-input::-webkit-input-placeholder {
+    color: #bababa;
+}
+.custom-input::-moz-placeholder {
+    color: #bababa;
+}
+.custom-input:-ms-input-placeholder {
+    color: #bababa;
+}
+.custom-input:-moz-placeholder {
+    color: #bababa;
+}
+.btn-responsive {
+    cursor: pointer;
+ }
+.btn-custom {
+    cursor: pointer;
+    background-color: #54ADCB;
+    border-color: #54ADCB !important;
+    color: #fff;
+ }
+.btn-custom:hover {
+    background-color: #1780c1;
+    color: #fff;
+ }
+ #autofill-override div input:-webkit-autofill, #autofill-override div textarea:-webkit-autofill, #autofill-override div select:-webkit-autofill {
+    background-color: #1f6798 !important;
+    -webkit-box-shadow:0 0 0 50px #1f6798 inset;
+    -webkit-text-fill-color: #ccc !important;
+    color: #fff !important;
+}
